@@ -56,29 +56,5 @@ Imagine a system that turns your local network into a mini distributed cloud —
 └─────────────┘
 ```
 
-## API Endpoints
-
-### REST API
-
-- `POST /api/jobs` - Submit new job
-- `GET /api/jobs` - Get all jobs
-- `GET /api/jobs/:jobId` - Get job details
-- `GET /api/devices` - Get all devices
-- `GET /api/devices/:deviceId` - Get device details
-
-### WebSocket Events
-
-**Client → Server:**
-- `register-device` - Register worker device
-- `heartbeat` - Send device status
-- `task-completed` - Report task completion
-- `task-failed` - Report task failure
-
-**Server → Client:**
-- `registration-success` - Confirm registration
-- `task-assigned` - Assign task to worker
-- `device-update` - Broadcast device status
-- `job-completed` - Notify job completion
-
 ## Author
 [anushkaVerma1007](https://github.com/anushkaVerma1007)
