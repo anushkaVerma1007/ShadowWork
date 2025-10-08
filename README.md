@@ -1,4 +1,3 @@
-```markdown
 # ShadowWork - Distributed Computing Platform
 
 A browser-based distributed computing orchestrator built with MERN stack + WebSockets.
